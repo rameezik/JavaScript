@@ -1,0 +1,50 @@
+#bulb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+}
+
+/* Top Part */
+.bulb-top-on,
+.bulb-top-off {
+  width: 120px;
+  height: 120px;
+  border-radius: 50% 50% 45% 45%;
+  background: yellow;
+  box-shadow: 0 0 30px yellow;
+  transition: 0.3s;
+}
+
+/* Bottom Part */
+.bulb-bottom-on,
+.bulb-bottom-off {
+  width: 60px;
+  height: 50px;
+  background: #555;
+  border-radius: 0 0 10px 10px;
+}
+
+/* OFF State */
+.bulb-top-off {
+  background: #ddd;
+  box-shadow: none;
+}
+
+.bulb-bottom-off {
+  background: #777;
+}
+
+
+button{
+    background-color: red;
+    color: yellow;
+    width: 80px;
+    position: fixed;
+    top: 50px;
+    left: 35px;
+    justify-content: center;
+
+
+
+}
